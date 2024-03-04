@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Proyectos = () => {
   return (
@@ -59,9 +60,11 @@ const Proyectos = () => {
               <br /> ALUAM te ofrece, además, un servicio postventa
               personalizado y al instante.
             </h3>
-            <button className="text-[22px]  text-gray300 mb-8 underline hover:text-orange500 hover:scale-105 transition">
-              Ver más +
-            </button>
+            <Link href="/catalogo">
+              <button className="text-[22px]  text-gray300 mb-8 underline hover:text-orange500 hover:scale-105 transition">
+                Ver más +
+              </button>
+            </Link>
           </div>
           <img
             src="/landing/first-landing.png"
@@ -93,9 +96,11 @@ const Proyectos = () => {
               distintos tipos de mamparas con excelente terminación, realzan la
               estética y jerarquizan tu diseño.
             </h3>
-            <button className="text-[22px]  text-gray300 mb-8 underline hover:text-orange500 hover:scale-105 transition">
-              Ver más +
-            </button>
+            <Link href="/catalogo">
+              <button className="text-[22px]  text-gray300 mb-8 underline hover:text-orange500 hover:scale-105 transition">
+                Ver más +
+              </button>
+            </Link>
           </div>
         </div>
         <div className="flex flex-row items-center justify-between mt-20 gap-10">
@@ -117,9 +122,11 @@ const Proyectos = () => {
               seguridad de tu hogar te ofrecemos cortinas de enrollar de
               aluminio a la medida de tus necesidades.
             </h3>
-            <button className="text-[22px]  text-gray300 mb-8 underline hover:text-orange500 hover:scale-105 transition">
-              Ver más +
-            </button>
+            <Link href="/catalogo">
+              <button className="text-[22px]  text-gray300 mb-8 underline hover:text-orange500 hover:scale-105 transition">
+                Ver más +
+              </button>
+            </Link>
           </div>
           <img
             src="/landing/third-landing.png"
