@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const ProductCard = ({ producto }) => {
   return (
@@ -20,7 +21,7 @@ const ProductCard = ({ producto }) => {
         <h3 className="text-[17px] text-gray500 text-center sm:text-left mt-[0.5rem] sm:mt-0">{producto.descripcion}</h3>
         <div className="flex flex-col sm:flex-row items-center justify-center sm:items-start sm:justify-start w-full gap-4 mt-10">
           {producto.productos.map((producto, index) => (
-            <a
+            <Link
               href={producto.enlace}
               key={index}
               className="back-degradado px-8 py-2 rounded-[10px] text-white flex flex-row items-center justify-center gap-2"
@@ -37,7 +38,7 @@ const ProductCard = ({ producto }) => {
                 />
               </svg>
               <span className="font-semibold text-[16px]">{producto.producto}</span>
-            </a>
+            </Link>
           ))}
         </div>
       </div>

@@ -122,7 +122,7 @@ const Nav = () => {
           Contacto
         </a>
       </div>
-      <div className="flex lg:hidden z-20">
+      <div className="flex lg:hidden z-30">
         {open && (
           <svg
             onClick={() => {
@@ -180,12 +180,18 @@ const Nav = () => {
         <div className="fixed top-0 left-0 w-full h-screen bg-gray200 flex flex-col items-center justify-center gap-20">
           <Link
             href="/catalogo"
+            onClick={() => {
+              setOpen(!open);
+            }}
             className="text-gray700 text-[32px] font-semibold hover:text-gray-800 "
           >
             Catálogo
           </Link>
           <a
             href="#contacto"
+            onClick={() => {
+              setOpen(!open);
+            }}
             className="text-white text-[32px] font-semibold  back-degradado px-8 py-2 rounded-[6px]"
           >
             Contacto

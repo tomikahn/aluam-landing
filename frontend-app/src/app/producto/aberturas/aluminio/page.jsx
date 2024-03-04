@@ -156,7 +156,7 @@ const page = () => {
           </div>
         </div>
 
-        <div className="flex flex-col w-full lg:w-[80%] m-auto px-8 lg:px-20 mb-[50px]">
+        <div className="flex flex-col w-full xl:w-[80%] m-auto px-8 xl:px-20 mb-[50px]">
           <Tabs
             aria-label="Options"
             color="#F47443"
@@ -239,7 +239,7 @@ const page = () => {
                     observar nuestros productos.
                   </p>
                 </div>
-                <div className="w-full lg:w-[100%] mt-[3rem] px-8 lg:px-20 mb-[80px]">
+                <div className="w-full lg:w-[100%] mt-[3rem] px-4 lg:px-20 mb-[80px]">
                   <Carousel
                     opts={{
                       align: "start",
@@ -250,7 +250,7 @@ const page = () => {
                       {perfilesAltaPrestacion.map((producto, index) => (
                         <CarouselItem
                           key={index}
-                          className="md:basis-1/2 lg:basis-1/4 hover:cursor-pointer"
+                          className="md:basis-1/2 xl:basis-1/4 hover:cursor-pointer"
                         >
                           <div
                             className="p-1"
@@ -289,7 +289,7 @@ const page = () => {
           placement="top-center"
           isOpen={isOpen}
           onOpenChange={onOpenChange}
-          className="w-[90vw] lg:w-[950px] h-fit max-h-[90vh] overflow-scroll sm:overflow-hidden"
+          className="absolute z-50 w-[90vw] lg:w-[950px] h-fit max-h-[80vh] overflow-scroll sm:overflow-hidden"
         >
           <ModalContent>
             {(onClose) => (
@@ -298,13 +298,13 @@ const page = () => {
                   <img
                     src={selected.img}
                     alt=""
-                    className="w-[210px] object-cover"
+                    className="w-[170px] md:w-[200px] object-cover"
                   />
-                  <div className="flex flex-col items-start justify-start gap-4 px-5">
+                  <div className="flex flex-col items-start justify-start gap-4 px-2">
                     <h2 className="text-[27px] text-gray-900 font-semibold">
                       {selected.title}
                     </h2>
-                    <p className="text-[16px] text-gray-700">
+                    <p className="text-[15px] md:text-[16px] text-gray-700">
                       {selected.description}
                     </p>
                   </div>

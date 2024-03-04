@@ -32,20 +32,20 @@ const Hero = () => {
     <div className="max-w-screen  h-screen flex items-start justify-start overflow-hidden">
       <Carousel
         plugins={[plugin.current]}
-        className="absolute w-full h-screen left-[-4px] bottom-[4px]"
+        className="absolute w-[101.1vw] lg:w-[99.33vw] h-screen left-[-4px] bottom-[4px]"
         onMouseEnter={plugin.current.stop}
         onMouseLeave={plugin.current.reset}
       >
         <CarouselContent>
           {urls.map((url, index) => (
             <CarouselItem key={index}>
-              <div className="p-1">
+              <div className="w-full lg:py-[2px] bg-black">
                 <img
                   src={url}
                   alt=""
                   width="100%"
                   height="100%"
-                  className="w-screen h-screen object-cover z-0"
+                  className="w-full h-screen object-cover z-0 opacity-40"
                 />
               </div>
             </CarouselItem>
@@ -53,7 +53,7 @@ const Hero = () => {
         </CarouselContent>
       </Carousel>
 
-      <div className="bg-black bg-opacity-70 h-screen w-[100%] lg:w-[65%] xl:w-[55%] 2xl:w-[40%] flex flex-col items-start justify-center px-6 sm:px-20 z-10">
+      <div className="lg:bg-black lg:bg-opacity-70 h-screen w-[100%] lg:w-[65%] xl:w-[55%] 2xl:w-[40%] flex flex-col items-start justify-center px-6 sm:px-20 z-10">
         <h1 className="text-[30px] sm:text-[40px] text-white font-semibold mb-4 mt-20">
           Hacemos las <br />
           <span className="text-orange500">
