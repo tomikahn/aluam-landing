@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBJiKIjhShQRouQpJPM1tMhlPbvQDYpBLE",
-  authDomain: "aluam-landing.firebaseapp.com",
-  projectId: "aluam-landing",
-  storageBucket: "aluam-landing.appspot.com",
-  messagingSenderId: "729501118579",
-  appId: "1:729501118579:web:c8eb6ebccd854b3441fa06"
+  apiKey: "AIzaSyBG3UVmH0iI2lZHeVIAYWkoELTkJPOfJlY",
+  authDomain: "aluam-landing-fe59d.firebaseapp.com",
+  projectId: "aluam-landing-fe59d",
+  storageBucket: "aluam-landing-fe59d.appspot.com",
+  messagingSenderId: "271692172103",
+  appId: "1:271692172103:web:4f7fbbf2f3bf2790205a62"
 };
 
 // Initialize Firebase
