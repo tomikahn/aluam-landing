@@ -7,17 +7,17 @@ const Ubicacion = () => {
         Nuestra ubicación
       </h2>
       <h1 className="text-gray1000 text-[26px] md:text-[36px] font-bold mb-4">
-        Atencion al cliente
+        Atención al cliente
       </h1>
       <img
         src="/landing/map2.png"
         alt=""
         className="w-full h-[450px] lg:h-[500px] rounded-[10px] object-cover"
       />
-      <div className="flex flex-col sm:flex-row items-start justify-between w-full mt-6">
+      <div className="flex flex-col lg:flex-row items-start justify-between w-full mt-6">
         <div className="flex flex-col items-start justify-start ">
           <h2 className="text-[20px] md:text-[28px] text-gray800 font-medium">
-            Córdoba 273, San Luis
+          Las Jarillas 2500, Local 4
           </h2>
           <a
             href="https://www.google.com/maps/place/Aluam/@-33.2876962,-66.3000771,14z/data=!4m6!3m5!1s0x95d43e864f402f09:0xacf03ddd7fdfe649!8m2!3d-33.2871849!4d-66.2879544!16s%2Fg%2F11krd9tbng?entry=ttu"
@@ -42,12 +42,12 @@ const Ubicacion = () => {
             </svg>
           </a>
         </div>
-        <div className="flex flex-col items-start justify-start sm:items-end sm:justify-end mt-4 sm:mt-0">
+        <div className="flex flex-col items-start justify-start lg:items-end lg:justify-end mt-4 sm:mt-0">
           <h3 className="text-gray600 text-[18px] md:text-[22px] font-medium">
-            Lu - Vi: 8:00 -17:30hs
+            Lu - Vi: 9:00 - 13:00hs y de 14:30hs a 19:00hs
           </h3>
           <h3 className="text-gray600 text-[18px] md:text-[22px] font-medium">
-            Sab: 8:00 - 13:00hs
+            Sab: 9:00 - 13:00hs
           </h3>
         </div>
       </div>

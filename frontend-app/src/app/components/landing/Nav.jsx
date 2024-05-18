@@ -40,7 +40,7 @@ const Nav = () => {
           href="/catalogo"
           className="text-gray700 text-[17px] font-semibold hover:text-gray-800 "
         >
-          Catálogo
+          productos
         </Link>
         {/* <Dropdown>
             <DropdownTrigger>
@@ -119,7 +119,7 @@ const Nav = () => {
               d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2m0 14H5.2L4 17.2V4h16z"
             />
           </svg>
-          Contacto
+          Presupuestos
         </a>
       </div>
       <div className="flex lg:hidden z-30">
@@ -185,7 +185,7 @@ const Nav = () => {
             }}
             className="text-gray700 text-[32px] font-semibold hover:text-gray-800 "
           >
-            Catálogo
+            Productos
           </Link>
           <a
             href="#contacto"
@@ -194,7 +194,7 @@ const Nav = () => {
             }}
             className="text-white text-[32px] font-semibold  back-degradado px-8 py-2 rounded-[6px]"
           >
-            Contacto
+            Presupuestos
           </a>
         </div>
       )}

@@ -32,7 +32,7 @@ const page = () => {
           <div className="relative w-full h-[200px] lg:h-[250px] pt-[152px] flex items-center justify-center">
             <div className="bg-black w-full h-full absolute">
               <img
-                src="/catalogo/building2.png"
+                src="/catalogo/backgroundAberturas.webp"
                 alt=""
                 className="w-full h-full object-cover opacity-30"
               />
@@ -46,7 +46,7 @@ const page = () => {
             <div className="flex flex-row items-start justify-start gap-4">
               <a href="/catalogo">
                 <h3 className="text-gray400 text-[14px] lg:text-[20px]">
-                  Catálogo
+                  Productos
                 </h3>
               </a>
               <h3 className="text-gray400 text-[14px] lg:text-[20px]">{`>`}</h3>
@@ -73,7 +73,7 @@ const page = () => {
                 Las prestaciones superiores del PVC (tendencia a nivel mundial)
                 nos permiten realizar aberturas de excelente calidad e
                 imponentes diseños que optimizan al máximo la temperatura de tus
-                ambientes. Trabajamos con perfilería Muchtec (Tecnocom),
+                ambientes. Trabajamos con perfilería Muchtek (Tecnoperfiles),
                 compañía líder en el mercado.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mt-6">

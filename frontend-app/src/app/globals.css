@@ -70,6 +70,19 @@
   background: linear-gradient(-45deg, #F1592A, #F47443);
   color: #fff; /* Ajusta el color del texto según sea necesario */
 }
+
+/* .carousel-button {
+  width: 48px;  
+  height: 48px;  
+  font-size: 32px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+} */
  
 @layer base {
   * {

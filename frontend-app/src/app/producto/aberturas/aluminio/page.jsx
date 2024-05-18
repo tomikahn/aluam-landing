@@ -48,7 +48,7 @@ const perfilesAltaPrestacion = [
       "La perfilería con Ruptura de Puente Térmico (RPT) fue creada para evitar los traspasos de temperatura a través de la hoja y marco de las aberturas. Es un sistema formado por dos capas de aluminio, entre las cuales cuenta con un centro de poliamida de alta resistencia que permite cortar con el paso de temperatura evitando el calentamiento y la condensación. En este caso la línea HA62 RPT de la extrusora HYDRO nos permite desarrollar aberturas de gran tamaño gracias a sus perfiles de generosa dimensión y excelente calidad. Sus terminaciones con cortes a 45° le da el toque estético diferente y atractivo a la vista que se complementa con el armado con escuadras de tracción que la hace súper resistente. Con esta línea podemos realizar aberturas de hasta 3.00 mts de ancho por 2.50 mts de alto sin perjudicar el buen funcionamiento.",
   },
   {
-    title: "HA1110",
+    title: "HA 110",
     img: "/catalogo/alta/ha110.png",
     description:
       "HA110 es una línea de alta prestación de calidad superlativa de la extrusora HYDRO. Cuenta con perfilería de dimensiones superiores que nos permite fabricar aberturas de grandes dimensiones. Sus terminaciones a 45° van ensambladas con escuadras de tracción para una mayor firmeza en el armado. Esta línea nos permite elaborar diseños de hasta 4.00 mts de ancho por 2.70 de alto sin comprometer el buen funcionamiento.",
@@ -67,7 +67,7 @@ const perfilesAltaPrestacion = [
   },
   {
     title: "A40",
-    img: "/catalogo/alta/a30.png",
+    img: "/catalogo/alta/a40.png",
     description:
       "A40 es una línea Premium de la extrusora ALUAR con terminaciones a 90° y excelente calidad. Su perfilería de generosas dimensiones nos permite realizar aberturas que se destacan por su gran tamaño. Con esta línea de diseño minimalista podemos alcanzar dimensiones de hasta 4.00 mts de ancho por 2.80 mts de alto obteniendo un perfecto funcionamiento.",
   },
@@ -90,7 +90,7 @@ const page = () => {
           <div className="relative w-full h-[200px] lg:h-[250px] pt-[152px] flex items-center justify-center">
             <div className="bg-black w-full h-full absolute">
               <img
-                src="/catalogo/building2.png"
+                src="/catalogo/backgroundAberturas.webp"
                 alt=""
                 className="w-full h-full object-cover opacity-30"
               />
@@ -104,7 +104,7 @@ const page = () => {
             <div className="flex flex-row items-start justify-start gap-4">
               <a href="/catalogo">
                 <h3 className="text-gray400 text-[14px] lg:text-[20px]">
-                  Catálogo
+                  Productos
                 </h3>
               </a>
               <h3 className="text-gray400 text-[14px] lg:text-[20px]">{`>`}</h3>
@@ -157,7 +157,7 @@ const page = () => {
         </div>
 
         <div className="flex flex-col w-full xl:w-[80%] m-auto px-8 xl:px-20 mb-[50px]">
-          <Tabs
+          <Tabs 
             aria-label="Options"
             color="#F47443"
             variant="underlined"

@@ -25,7 +25,7 @@ const DividerCatalogo = () => {
           />
         </svg>
         <h2 className="text-[20px] md:text-[40px] text-white font-medium">
-          Explora nuestro <span className="font-bold">catálogo</span>
+          Explora nuestros <span className="font-bold">productos</span>
         </h2>
       </motion.div>
     </a>

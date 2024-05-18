@@ -4,7 +4,7 @@ import ProductCard from "./ProductCard";
 const Hero = () => {
   const productosLista = [
     {
-      imagen: "/landing/product1.png",
+      imagen: "/landing/Nordical.png",
       titulo: "Aberturas",
       descripcion:
         "Explora nuestra variedad de aberturas de aluminio y PVC, ideales para cualquier proyecto arquitectónico.",
@@ -33,18 +33,18 @@ const Hero = () => {
       <div className="relative w-full h-[200px] lg:h-[250px] pt-[152px] flex items-center justify-center">
             <div className="bg-black w-full h-full absolute">
               <img
-                src="/catalogo/building2.png"
+                src="/catalogo/background.webp"
                 alt=""
                 className="w-full h-full object-cover opacity-30"
               />
             </div>
 
             <h1 className="text-[32px] lg:text-[42px] font-bold text-white z-40">
-             Catálogo
+             Productos
             </h1>
           </div>
       <div className="w-full lg:w-[90vw] pt-[120px] pb-[150px] px-8 md:px-20">
-        <h2 className="text-gray500 text-[17px] text-center sm:text-left">Descubri nuestro catálogo</h2>
+        <h2 className="text-gray500 text-[17px] text-center sm:text-left">Descubri nuestros productos</h2>
         <h1 className="text-gray1000 text-[26px] md:text-[32px] text-center sm:text-left font-bold mb-20 md:mb-10">
           Nuestros productos
         </h1>

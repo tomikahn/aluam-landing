@@ -5,11 +5,8 @@ const Proyectos = () => {
   return (
     <div className="bg-[#252527]">
       <div className="w-full m-auto lg:w-[95vw] xl:max-w-[93vw] 2xl:max-w-[90vw] pt-[100px] pb-[150px] px-8 md:px-20">
-        <h2 className="text-gray300 text-[16px] lg:text-[20px]">
-          Descubri nuestros trabajos
-        </h2>
         <h1 className="text-white text-[26px] lg:text-[36px] font-bold mb-0 lg:mb-10">
-          Nuestros proyectos
+          Sobre nosotros
         </h1>
         <div className=" flex flex-col lg:flex-row gap-10 mt-8">
           <video controls className="lg:h-[30vh] xl:h-[40vh] 2xl:h-[60vh]">
@@ -17,9 +14,6 @@ const Proyectos = () => {
             Tu navegador no soporta el elemento de video.
           </video>
           <div>
-            <h2 className="text-white text-[26px] lg:text-[32px] font-semibold mb-[1rem]">
-              Sobre nosotros
-            </h2>
             <p className="text-gray300 text-[15px] xl:text-[17px]">
               Somos una empresa dedicada a la fabricación y venta de aberturas
               de aluminio y PVC en media y alta prestación. Nos avalan más de 15

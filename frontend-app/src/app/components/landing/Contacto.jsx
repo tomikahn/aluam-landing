@@ -31,7 +31,7 @@ const Contacto = () => {
                 Whatsapp:
               </h3>
               <h3 className=" text-[20px] md:text-[24px] text-gray700 font-semibold">
-                +549351123156
+              +5492664655398
               </h3>
             </div>
             <div className="flex flex-row items-center justify-start gap-4 mb-4">
