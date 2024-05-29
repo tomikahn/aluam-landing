@@ -10,7 +10,7 @@ const ProductCard = ({ producto }) => {
   };
   return (
     <div
-      className="group h-[350px] w-[350px] relative border-[1px] border-gray-700 rounded-[6px] transition hover:border-opacity-100 hover:border-orange-500 hover:border-[3px]"
+      className="group w-full h-[350px] relative border-[1px] border-gray-700 rounded-[6px] transition hover:border-opacity-100 hover:border-orange-500 hover:border-[3px]"
       style={backgroundImageStyle}
     >
       <Link

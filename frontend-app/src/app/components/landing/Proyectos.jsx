@@ -1,133 +1,41 @@
 import React from "react";
-import Link from "next/link";
+import ItemProyecto from "./ItemProyecto";
 
 const Proyectos = () => {
+
+  const data = [
+    {images:[{imagen:"/landing/proyectos/ypf/YPF 1.webp"},{imagen:"/landing/proyectos/ypf/YPF 2.webp"},{imagen:"/landing/proyectos/ypf/YPF 3.webp"},{imagen:"/landing/proyectos/ypf/YPF 4.webp"},{imagen:"/landing/proyectos/ypf/YPF 5.webp"},{imagen:"/landing/proyectos/ypf/YPF 6.webp"},{imagen:"/landing/proyectos/ypf/YPF 7.webp"}],
+    title:"Estación de servicio YPF Boutique",
+    text:"Obra ubicada en una zona residencial, en la ciudad de Juana Koslay, provincia de San Luis. En la fachada del sector del Shop FULL se llevó a cabo el montaje de piel de vidrio de 240 mts2, realizada con DVH y vidrio templado, respetando las medidas de seguridad requeridas. En interior se instalaron cortinas roller que refuerzan la protección de la luz solar. Para el sector de BOXES se realizó el cerramiento con cortina de enrollar de aluminio y las aberturas de baños y oficinas fueron realizadas en línea Módena color anodizado natural con DVH con vidrio laminado.",
+    tipologias:["Aberturas corredizas, paños fijos y ventiluz","Puertas batientes","Puertas blindex con máquina hidráulica"]
+    },
+     {images:[{imagen:"/landing/proyectos/aterrazada/CASA 1.webp"},{imagen:"/landing/proyectos/aterrazada/CASA 2.webp"},{imagen:"/landing/proyectos/aterrazada/CASA 3.webp"},{imagen:"/landing/proyectos/aterrazada/CASA 4.webp"},{imagen:"/landing/proyectos/aterrazada/CASA 5.webp"},{imagen:"/landing/proyectos/aterrazada/CASA 6.webp"}],
+    title:"Casa aterrazada",
+    text:"Vivienda familiar en Country de la ciudad de San Luis. Realizado en A30 color bronce colonial. Aberturas con dinteles de 2,70 mts y. DVH con vidrio laminado. Paños fijos de 7mts y aberturas de 5, para optimizar la vista a las sierras.",
+    tipologias:["Aberturas corredizas, paños fijos y oscilo batientes", "Puertas batientes"]
+    },
+    {images:[{imagen:"/landing/proyectos/zara/ZARA 1.webp"},{imagen:"/landing/proyectos/zara/ZARA 2.webp"},{imagen:"/landing/proyectos/zara/ZARA 3.webp"},{imagen:"/landing/proyectos/zara/ZARA 4.webp"},{imagen:"/landing/proyectos/zara/ZARA 5.webp"}],
+    title:"Edificio zara",
+    text:"El edificio ubicado en la zona céntrica de la ciudad de San Luis. Consta de 4 torres con 82 departamentos y más de 270 aberturas realizadas íntegramente en línea Rotonda 640 color blanco.",
+    tipologias:["Aberturas corredizas","Puertas batientes","Paños fijos"]
+    },
+    {images:[{imagen:"/landing/proyectos/bar/BAR 1.webp"},{imagen:"/landing/proyectos/bar/BAR 2.webp"},{imagen:"/landing/proyectos/bar/BAR 3.webp"},{imagen:"/landing/proyectos/bar/BAR 4.webp"}],
+    title:"AS Bar",
+    text:"Se trata de una de las obras realizados en un Barrio Privado en desarrollo ubicado en las sierras de San Luis. Es una vivienda familiar que cuenta con más de 20 aberturas, algunas que superan los 4mts, por 2,50 mts., realizadas en líneas A30 y Módena en color bronce colonial. Además, en la fachada se instaló Profilit, que le aporta distinción y singularidad al diseño.",
+    tipologias:["Puertas batientes","Aberturas corredizas oscilobatientes, y ventiluz"]
+    },
+  ]
   return (
-    <div className="bg-[#252527]">
-      <div className="w-full m-auto lg:w-[95vw] xl:max-w-[93vw] 2xl:max-w-[90vw] pt-[100px] pb-[150px] px-8 md:px-20">
-        <h1 className="text-white text-[26px] lg:text-[36px] font-bold mb-0 lg:mb-10">
-          Sobre nosotros
-        </h1>
-        <div className=" flex flex-col lg:flex-row gap-10 mt-8">
-          <video controls className="lg:h-[30vh] xl:h-[40vh] 2xl:h-[60vh]">
-            <source src="/landing/video1.mp4" type="video/mp4" />
-            Tu navegador no soporta el elemento de video.
-          </video>
-          <div>
-            <p className="text-gray300 text-[15px] xl:text-[17px]">
-              Somos una empresa dedicada a la fabricación y venta de aberturas
-              de aluminio y PVC en media y alta prestación. Nos avalan más de 15
-              años de trayectoria en San Luis capital, y el reconocimiento de la
-              calidad superior de nuestros productos en el mercado local. <br />
-              <br /> Nuestras aberturas son realizadas exclusivamente a la
-              medida de tus necesidades. Contamos además con la división
-              vidrios, lo que nos permite ofrecer un acabado integral, coherente
-              y adaptado a la estética de tu proyecto. <br />
-              <br /> En ALUAM nos comprometemos con nuestro trabajo y con el
-              servicio al cliente: buscamos la excelencia en el asesoramiento,
-              la entrega e instalación, la calidad de los productos y el
-              servicio postventa. <br />
-              <br />
-              <span className="text-white font-semibold italic text-[18px]">
-                "Cuidando los detalles, ALUAM es garantía de calidad"
-              </span>
-            </p>
-          </div>
-        </div>
-        <div className="flex flex-row items-center justify-between mt-20 gap-10">
-          <div className="flex flex-col items-start justify-start lg-full lg:w-[50%]">
-            <img
-              src="/landing/first-landing.png"
-              alt=""
-              width="350px"
-              height="350px"
-              className="flex lg:hidden mb-8"
-            />
-            <h2 className="text-[26px] lg:text-[32px] font-semibold text-white mb-4">
-              Aberturas
-            </h2>
-            <h3 className="text-[16px] lg:text-[18px] text-gray300 mb-8">
-              En ALUAM nos especializamos en la fabricación de aberturas
-              exclusivamente a medida, con opciones en media y alta prestación.
-              Fusionamos resistencia y estilo para proporcionarte productos que
-              destacan por su calidad y diseño excepcionales. <br />
-              <br /> ALUAM te ofrece, además, un servicio postventa
-              personalizado y al instante.
-            </h3>
-            <Link href="/catalogo">
-              <button className="text-[22px]  text-gray300 mb-8 underline hover:text-orange500 hover:scale-105 transition">
-                Ver más +
-              </button>
-            </Link>
-          </div>
-          <img
-            src="/landing/first-landing.png"
-            alt=""
-            className="hidden lg:flex"
-          />
-        </div>
-        <div className="flex flex-row items-center justify-between mt-20 gap-10">
-          <img
-            width="350px"
-            height="350px"
-            src="/landing/second-landing.png"
-            alt=""
-            className="hidden lg:flex"
-          />
-          <div className="flex flex-col items-start justify-start lg-full lg:w-[50%]">
-            <img
-              src="/landing/second-landing.png"
-              alt=""
-              className="flex lg:hidden mb-8"
-            />
-            <h2 className="text-[26px] lg:text-[32px] font-semibold text-white mb-4">
-              {" "}
-              Vidrios
-            </h2>
-            <h3 className="text-[16px] lg:text-[18px] text-gray300 mb-8">
-              {" "}
-              Nuestras fachadas vidriadas, barandas para escaleras y balcones y
-              distintos tipos de mamparas con excelente terminación, realzan la
-              estética y jerarquizan tu diseño.
-            </h3>
-            <Link href="/catalogo">
-              <button className="text-[22px]  text-gray300 mb-8 underline hover:text-orange500 hover:scale-105 transition">
-                Ver más +
-              </button>
-            </Link>
-          </div>
-        </div>
-        <div className="flex flex-row items-center justify-between mt-20 gap-10">
-          <div className="flex flex-col items-start justify-start lg-full lg:w-[50%]">
-            <img
-              width="350px"
-              height="350px"
-              src="/landing/third-landing.png"
-              alt=""
-              className="flex lg:hidden mb-8"
-            />
-            <h2 className="text-[26px] lg:text-[32px] font-semibold text-white mb-4">
-              {" "}
-              Cortinas
-            </h2>
-            <h3 className="text-[16px] lg:text-[18px] text-gray300 mb-8">
-              Completamos tu proyecto con cortinas de interior y toldos
-              garantizados por la calidad y trayectoria de Dino Conte. Para la
-              seguridad de tu hogar te ofrecemos cortinas de enrollar de
-              aluminio a la medida de tus necesidades.
-            </h3>
-            <Link href="/catalogo">
-              <button className="text-[22px]  text-gray300 mb-8 underline hover:text-orange500 hover:scale-105 transition">
-                Ver más +
-              </button>
-            </Link>
-          </div>
-          <img
-            src="/landing/third-landing.png"
-            alt=""
-            className="hidden lg:flex"
-          />
-        </div>
+    <div className="">
+      <div className="w-full xl:w-[75vw] m-auto lg:w-[95vw] xl:max-w-[93vw] 2xl:max-w-[90vw] pt-[80px] pb-[80px] md:pb-[150px] px-8 md:px-20">
+        {/* <h1 className="text-[26px] lg:text-[42px] font-bold mb-0 lg:mb-10 bg-orange500 text-white p-6 rounded-[2px]">
+          Nuestros proyectos
+        </h1> */}
+        {data.map((item,index)=>{
+          return(
+            <ItemProyecto key={index} images={item.images} title={item.title} text={item.text} tipologias={item.tipologias}/>
+          )
+        })}
       </div>
     </div>
   );

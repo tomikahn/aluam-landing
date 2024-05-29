@@ -1,20 +1,12 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
-import {
-  Navbar,
-  NavbarBrand,
-  NavbarContent,
-  NavbarItem,
-  Button,
-  DropdownItem,
-  DropdownTrigger,
-  Dropdown,
-  DropdownMenu,
-} from "@nextui-org/react";
 // import {ChevronDown, Lock, Activity, Flash, Server, TagUser, Scale} from "./Icons.jsx";
 
 const Nav = () => {
+
+  const text = "Hola, me comunico con ustedes por la siguiente consulta:"
+
   const [open, setOpen] = useState(true);
 
   // const icons = {
@@ -28,7 +20,7 @@ const Nav = () => {
   // };
 
   return (
-    <div className="fixed top-0 w-full py-4 xl:px-20 md:px-12  px-6 bg-white flex flex-row justify-between z-40">
+    <div className="fixed top-0 w-full py-4 xl:px-20 md:px-12  px-6 bg-white flex flex-row justify-between z-50">
       <a href="/" className="hover:cursor-pointer">
         <div className="flex flex-row items-center justify-center gap-2 z-20">
           <img src="/landing/logo.png" alt="" className="w-[52px] h-[43px]" />
@@ -40,7 +32,7 @@ const Nav = () => {
           href="/catalogo"
           className="text-gray700 text-[17px] font-semibold hover:text-gray-800 "
         >
-          productos
+          Productos
         </Link>
         {/* <Dropdown>
             <DropdownTrigger>
@@ -105,7 +97,7 @@ const Nav = () => {
           Sobre nosotros
         </Link> */}
         <a
-          href="#contacto"
+          href="/#contacto"
           className="text-white text-[17px] font-semibold  back-degradado px-8 py-2 rounded-[6px] flex flex-row items-center justify-center gap-2"
         >
           <svg
@@ -187,8 +179,7 @@ const Nav = () => {
           >
             Productos
           </Link>
-          <a
-            href="#contacto"
+          <a target='_blank' href={`https://wa.me/+5492664655398?text=${text}`}
             onClick={() => {
               setOpen(!open);
             }}

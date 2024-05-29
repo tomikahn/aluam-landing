@@ -9,11 +9,12 @@ const Ubicacion = () => {
       <h1 className="text-gray1000 text-[26px] md:text-[36px] font-bold mb-4">
         Atención al cliente
       </h1>
-      <img
+      {/* <img
         src="/landing/map2.png"
         alt=""
         className="w-full h-[450px] lg:h-[500px] rounded-[10px] object-cover"
-      />
+      /> */}
+      <iframe className="w-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3335.215659521398!2d-66.29021802329889!3d-33.287020573454754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d43e864f402f09%3A0xacf03ddd7fdfe649!2sAluam!5e0!3m2!1ses-419!2sar!4v1716996481539!5m2!1ses-419!2sar" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       <div className="flex flex-col lg:flex-row items-start justify-between w-full mt-6">
         <div className="flex flex-col items-start justify-start ">
           <h2 className="text-[20px] md:text-[28px] text-gray800 font-medium">

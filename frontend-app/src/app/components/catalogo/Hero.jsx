@@ -45,7 +45,7 @@ const Hero = () => {
           </div>
       <div className="w-full lg:w-[90vw] pt-[120px] pb-[150px] px-8 md:px-20">
         <h2 className="text-gray500 text-[17px] text-center sm:text-left">Descubri nuestros productos</h2>
-        <h1 className="text-gray1000 text-[26px] md:text-[32px] text-center sm:text-left font-bold mb-20 md:mb-10">
+        <h1 className="text-gray1000 text-[26px] md:text-[32px] text-center sm:text-left font-bold mb-10 lg:mb-20 md:mb-10">
           Nuestros productos
         </h1>
         <div className="w-full grid grid-cols-1 xl:grid-cols-2 gap-20">

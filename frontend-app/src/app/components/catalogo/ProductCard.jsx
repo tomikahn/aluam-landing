@@ -19,7 +19,7 @@ const ProductCard = ({ producto }) => {
           {producto.titulo}
         </h2>
         <h3 className="text-[17px] text-gray500 text-center sm:text-left mt-[0.5rem] sm:mt-0">{producto.descripcion}</h3>
-        <div className="flex flex-col sm:flex-row items-center justify-center sm:items-start sm:justify-start w-full gap-4 mt-10">
+        <div className="flex flex-wrap items-center justify-center sm:items-start sm:justify-start w-full gap-4 mt-10">
           {producto.productos.map((producto, index) => (
             <Link
               href={producto.enlace}

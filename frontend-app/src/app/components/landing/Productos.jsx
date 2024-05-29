@@ -22,7 +22,7 @@ const Productos = () => {
       nombre: "Aberturas de PVC",
       subtitulo: ["PVC"],
       descripcion:
-        "Trabajamos con perfilería MuchteK (Tecnoperfiles), compañía líder en el mercado. ",
+        "Trabajamos con perfilería Muchtek (Tecnoperfiles), compañía líder en el mercado. ",
       enlace: "/catalogo/aberturas/pvc",
       imagen: "/landing/PVCrender.png",
     },
@@ -44,7 +44,7 @@ const Productos = () => {
     }
   ];
   return (
-    <div className="w-screen md:w-[90vw] m-auto pt-[0px] md:pt-[100px] pb-[150px] px-4 md:px-20">
+    <div className="w-screen md:w-[90vw] m-auto pt-[50px] md:pt-[100px] pb-[150px] px-4 md:px-20">
       <h2 className="text-gray500 text-[17px] md:text-[20px]">Descubri nuestros productos</h2>
       <h1 className="text-gray1000 text-[26px] md:text-[36px] font-bold mb-10">
         Nuestros productos
@@ -53,7 +53,7 @@ const Productos = () => {
         opts={{
           align: "start",
         }}
-        className="w-[100vw] md:w-full"
+        className="w-full md:w-full"
       >
         <CarouselContent>
           {productosLista.map((producto, index) => (
