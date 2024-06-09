@@ -2,7 +2,7 @@ import React from "react";
 
 const Nosotros = () => {
   return (
-    <div className="bg-[#252527]">
+    <div className="bg-[#252527]" id="nosotros">
       <div className="w-full m-auto lg:w-[95vw] xl:max-w-[93vw] 2xl:max-w-[90vw] pt-[100px] pb-[150px] px-8 md:px-20">
         <h1 className="text-white text-[26px] lg:text-[36px] font-bold mb-0 lg:mb-10">
           Sobre nosotros

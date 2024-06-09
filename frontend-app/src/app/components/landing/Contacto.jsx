@@ -76,8 +76,8 @@ const Contacto = () => {
               <h3 className="hidden sm:flex text-[24px] text-gray500 font-medium">
                 Email:
               </h3>
-              <a href="mailto:aluam@gmail.com" className="text-[24px] text-orange500 font-semibold">
-                aluam@gmail.com
+              <a href="mailto:aluamsl@gmail.com" className="text-[24px] text-orange500 font-semibold">
+                aluamsl@gmail.com
               </a>
             </div>
           </div>

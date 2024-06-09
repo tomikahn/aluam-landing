@@ -27,10 +27,10 @@ const Nav = () => {
           <h3 className="text-[29px] text-gray900 font-bold">ALUAM</h3>
         </div>
       </a>
-      <div className="hidden lg:flex flex-row items-center justify-center gap-20">
+      <div className="hidden lg:flex flex-row items-center justify-center gap-10">
         <Link
           href="/catalogo"
-          className="text-gray700 text-[17px] font-semibold hover:text-gray-800 "
+          className="text-gray700 text-[16px] font-medium hover:text-gray-800 "
         >
           Productos
         </Link>
@@ -90,15 +90,21 @@ const Nav = () => {
             </DropdownItem>
           </DropdownMenu>
         </Dropdown> */}
-        {/* <Link
-          href="/nosotros"
-          className="text-gray700 text-[17px] font-semibold hover:text-gray-800 "
+        <Link
+          href="/#nosotros"
+          className="text-gray700 text-[16px] font-medium hover:text-gray-800 "
         >
-          Sobre nosotros
-        </Link> */}
+          Nosotros
+        </Link>
+        <Link
+          href="/#proyectos"
+          className="text-gray700 text-[16px] font-medium hover:text-gray-800 "
+        >
+          Proyectos
+        </Link>
         <a
           href="/#contacto"
-          className="text-white text-[17px] font-semibold  back-degradado px-8 py-2 rounded-[6px] flex flex-row items-center justify-center gap-2"
+          className="text-white text-[16px] font-semibold  back-degradado px-4 py-2 rounded-[6px] flex flex-row items-center justify-center gap-2"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -178,6 +184,24 @@ const Nav = () => {
             className="text-gray700 text-[32px] font-semibold hover:text-gray-800 "
           >
             Productos
+          </Link>
+          <Link
+            href="/#nosotros"
+            // onClick={() => {
+            //   setOpen(!open);
+            // }}
+            className="text-gray700 text-[32px] font-semibold hover:text-gray-800 "
+          >
+            Nosotros
+          </Link>
+          <Link
+            href="/#proyectos"
+            // onClick={() => {
+            //   setOpen(!open);
+            // }}
+            className="text-gray700 text-[32px] font-semibold hover:text-gray-800 "
+          >
+            Proyectos
           </Link>
           <a target='_blank' href={`https://wa.me/+5492664655398?text=${text}`}
             onClick={() => {

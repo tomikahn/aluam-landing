@@ -17,7 +17,7 @@ const ItemProyecto = ({images,title,text,tipologias}) => {
       <div className="flex flex-wrap gap-2">
       {tipologias.map((tipologia,index)=>{
             return(
-                <span key={index} className="px-4 py-2 text-[14px] rounded-[20px] bg-orange500 text-white">{tipologia}</span>
+                <span key={index} className="px-4 py-2 text-[14px] rounded-[20px] bg-orange500 text-white font-medium">{tipologia}</span>
             )
         })}
                     </div>

@@ -47,7 +47,7 @@ const Hero = () => {
 
       <div className="lg:bg-black lg:bg-opacity-70 h-screen w-[100%] lg:w-[50%] xl:w-[50%] 2xl:w-[50%] flex flex-col items-start justify-center px-6 sm:px-20 z-10">
         <h1 className="text-[30px] sm:text-[40px] text-white font-semibold mb-4 mt-20">
-          Hacemos las <br />
+          Las <br />
           <span className="text-orange500">
             aberturas perfectas{" "}
           </span> <br /> para tu proyecto
