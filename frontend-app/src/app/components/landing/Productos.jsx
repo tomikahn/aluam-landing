@@ -16,14 +16,14 @@ const Productos = () => {
       descripcion:
         "Trabajamos con las extrusoras Hydro y Aluar, compañías líderes en el mercado. Te invitamos a conocer las líneas de media y alta prestación.",
       enlace: "/producto/aberturas/aluminio",
-      imagen: "/landing/product1.png",
+      imagen: "/catalogo/alta/nordical.png",
     },
     {
       nombre: "Aberturas de PVC",
       subtitulo: ["PVC"],
       descripcion:
         "Trabajamos con perfilería Muchtek (Tecnoperfiles), compañía líder en el mercado. ",
-      enlace: "/catalogo/aberturas/pvc",
+      enlace: "/producto/aberturas/pvc",
       imagen: "/landing/PVCrender.png",
     },
     {
