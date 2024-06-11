@@ -78,8 +78,6 @@ const Hero = () => {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
       </Carousel>
       {/* implementar logica de cambio de foto */}
       <div className="absolute bottom-[10%] left-[45%] flex flex-row gap-2" style={{zIndex: 100}}>

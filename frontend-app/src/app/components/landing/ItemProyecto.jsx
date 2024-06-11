@@ -38,7 +38,7 @@ const ItemProyecto = ({ images, title, text, tipologias }) => {
           <CarouselContent>
             {images.map((image, index) => (
               <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3 xl:basis-1/4">
-                <img onClick={()=>{setIndex(index);onOpen()}} src={image.imagen} alt="" className='w-full h-[390px] rounded-[6px] object-cover cursor-pointer hover:scale-[1.05] transition-all' />
+                <img onClick={()=>{setIndex(index);onOpen()}} src={image.imagen} alt="" className='w-full h-[390px] rounded-[6px] hover:rounded-[26px] object-cover cursor-pointer hover:scale-[1.04] transition-all' />
               </CarouselItem>
             ))}
           </CarouselContent>
