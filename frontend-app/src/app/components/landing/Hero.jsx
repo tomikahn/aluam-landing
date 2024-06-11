@@ -5,13 +5,28 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 
 const Hero = () => {
+  const [api, setApi] = React.useState()
+
   const plugin = React.useRef(
     Autoplay({ delay: 6500, stopOnInteraction: true })
   );
+
+  const [activeIndex, setActiveIndex] = React.useState(0);
+  const [slideCount, setSlideCount] = React.useState(0);
+
+
+
+  const handleIndicatorClick = (index) => {
+    if (api) {
+      api.scrollTo(index);
+    }
+  };
 
   const urls = [
     "/hero/foto1.webp",
@@ -20,13 +35,33 @@ const Hero = () => {
     "/hero/foto4.webp",
   ];
 
+  React.useEffect(() => {
+    if (!api) {
+      return;
+    }
+
+    setSlideCount(api.scrollSnapList().length);
+    setActiveIndex(api.selectedScrollSnap());
+
+    const onSelect = () => {
+      setActiveIndex(api.selectedScrollSnap());
+    };
+
+    api.on("select", onSelect);
+
+    return () => {
+      api.off("select", onSelect);
+    };
+  }, [api]);
+
   return (
-    <div className="max-w-screen  h-screen flex items-start justify-start overflow-hidden">
+    <div className="max-w-screen  h-screen flex items-start justify-start over overflow-hidden">
       <Carousel
-        plugins={[plugin.current]}
-        className="absolute w-[101.1vw] lg:w-[99.33vw] h-screen left-[-4px] bottom-[4px]"
-        onMouseEnter={plugin.current.stop}
-        onMouseLeave={plugin.current.reset}
+        setApi={setApi}
+       plugins={[plugin.current]}
+       className="absolute w-[101.1vw] lg:w-[99.33vw] h-screen left-[-4px] bottom-[4px]"
+       onMouseEnter={plugin.current.stop}
+       onMouseLeave={plugin.current.reset}
       >
         <CarouselContent>
           {urls.map((url, index) => (
@@ -43,8 +78,19 @@ const Hero = () => {
             </CarouselItem>
           ))}
         </CarouselContent>
+        <CarouselPrevious />
+        <CarouselNext />
       </Carousel>
-
+      {/* implementar logica de cambio de foto */}
+      <div className="absolute bottom-[10%] left-[45%] flex flex-row gap-2" style={{zIndex: 100}}>
+        {urls.map((_, index) => (
+          <div
+            key={index}
+            className={`w-[25px] rounded-[20px] h-[10px] cursor-pointer ${index === activeIndex ? 'bg-orange500' : 'bg-gray500'}`}
+            onClick={() => handleIndicatorClick(index)}
+          ></div>
+        ))}
+      </div>
       <div className="lg:bg-black lg:bg-opacity-70 h-screen w-[100%] lg:w-[50%] xl:w-[50%] 2xl:w-[50%] flex flex-col items-start justify-center px-6 sm:px-20 z-10">
         <h1 className="text-[30px] sm:text-[40px] text-white font-semibold mb-4 mt-20">
           Las <br />
