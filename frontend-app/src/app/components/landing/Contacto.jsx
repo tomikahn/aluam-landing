@@ -8,8 +8,8 @@ const Contacto = () => {
       className="px-0 sm:px-8 lg:px-20 sm:pb-[150px] md:w-[90vw] m-auto"
       id="contacto"
     >
-      <div className="w-full hidden md:flex flex-row md:rounded-[15px] items-center justify-around py-10 md:py-20 bg-gray100">
-        <div className="flex flex-row md:justify-around md:px-20 sm:px-8 px-4 w-full lg:w-[40%] xl:w-[15%]">
+      <div className="w-full hidden md:flex flex-row md:rounded-[15px] items-center justify-around py-10 md:py-12 2xl:p-20 bg-gray100 ">
+        <div className="flex flex-row md:justify-around md:px-20 sm:px-8 px-4 w-full lg:w-[60%] xl:w-[35%] ">
           <div className="flex flex-col items-start justify-start">
             <h3 className="text-[26px] lg:text-[36px] text-gray800 font-bold">
               Contacto
@@ -83,9 +83,9 @@ const Contacto = () => {
           </div>
         </div>
         <img
-          src="/landing/logo.png"
+          src="/landing/logo3.png"
           alt=""
-          className="w-[200px] h-[200px] xl:w-[250px] xl:h-[250px] hidden lg:flex"
+          className="w-[200px] h-[200px] xl:w-[220px] hidden lg:flex"
         />
       </div>
     </div>
