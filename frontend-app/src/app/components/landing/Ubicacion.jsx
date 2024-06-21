@@ -14,14 +14,15 @@ const Ubicacion = () => {
         alt=""
         className="w-full h-[450px] lg:h-[500px] rounded-[10px] object-cover"
       /> */}
-      <iframe className="w-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3335.215659521398!2d-66.29021802329889!3d-33.287020573454754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d43e864f402f09%3A0xacf03ddd7fdfe649!2sAluam!5e0!3m2!1ses-419!2sar!4v1716996481539!5m2!1ses-419!2sar" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe className="w-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5624.872940578474!2d-66.35773532193228!3d-33.317551319362344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d43bdd81e87fab%3A0x3e51c5f914ef928c!2sAv.%20Juan%20Gilberto%20Funes%202428%2C%20San%20Luis!5e0!3m2!1ses-419!2sar!4v1718982847639!5m2!1ses-419!2sar" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       <div className="flex flex-col lg:flex-row items-start justify-between w-full mt-6">
         <div className="flex flex-col items-start justify-start ">
           <h2 className="text-[20px] md:text-[28px] text-gray800 font-medium">
-          Las Jarillas 2500, Local 4
+          Av. Juan Gilberto Funes 2428
           </h2>
           <a
-            href="https://www.google.com/maps/place/Aluam/@-33.2876962,-66.3000771,14z/data=!4m6!3m5!1s0x95d43e864f402f09:0xacf03ddd7fdfe649!8m2!3d-33.2871849!4d-66.2879544!16s%2Fg%2F11krd9tbng?entry=ttu"
+            target="_blank"
+            href="https://www.google.com/maps/place/Av.+Juan+Gilberto+Funes+2428,+San+Luis/@-33.3175513,-66.3577353,16.25z/data=!4m6!3m5!1s0x95d43bdd81e87fab:0x3e51c5f914ef928c!8m2!3d-33.3176296!4d-66.3560205!16s%2Fg%2F11gr69l00v?authuser=0&entry=ttu"
             className="text-[20px] text-gray500 flex items-center justify-center flex-row gap-4"
           >
             <span className="underline text-[17px] md:text-[20px]">

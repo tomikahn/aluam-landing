@@ -53,7 +53,7 @@ const Productos = () => {
         opts={{
           align: "start",
         }}
-        className="w-full md:w-full"
+        className="w-[70vw] m-auto lg:m-0 lg:w-full md:w-full"
       >
         <CarouselContent>
           {productosLista.map((producto, index) => (

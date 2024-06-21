@@ -33,16 +33,20 @@ const ItemProyecto = ({ images, title, text, tipologias }) => {
           opts={{
             align: "start",
           }}
-          className="w-full xl:w-full mt-8 mb-10"
+          className="w-[70vw] m-auto xl:w-full mt-8 mb-10"
         >
           <CarouselContent>
             {images.map((image, index) => (
               <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3 xl:basis-1/4">
-                <img onClick={()=>{setIndex(index);onOpen()}} src={image.imagen} alt="" className='w-full h-[390px] rounded-[6px] hover:rounded-[26px] object-cover cursor-pointer hover:scale-[1.04] transition-all' />
+                <>
+                <img src={image.imagen} alt="" className='flex lg:hidden w-full h-[390px] rounded-[6px] hover:rounded-[26px] object-cover cursor-pointer hover:scale-[1.04] transition-all' />
+                <img onClick={()=>{setIndex(index);onOpen()}} src={image.imagen} alt="" className='hidden lg:flex w-full h-[390px] rounded-[6px] hover:rounded-[26px] object-cover cursor-pointer hover:scale-[1.04] transition-all' />
+
+                </>
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious />
+          <CarouselPrevious/>
           <CarouselNext />
         </Carousel>
         <Modal

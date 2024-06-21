@@ -20,7 +20,7 @@ const Nav = () => {
   // };
 
   return (
-    <div className="fixed top-0 w-full py-4 xl:px-20 md:px-12  px-6 bg-white flex flex-row justify-between z-50">
+    <div className="fixed top-0 w-full py-4 xl:px-20 md:px-12  px-6 bg-white flex flex-row justify-between z-[100]">
       <a href="/" className="hover:cursor-pointer">
         <div className="flex flex-row items-center justify-center gap-2 z-20">
           <img src="/landing/logo.png" alt="" className="w-[52px] h-[43px]" />

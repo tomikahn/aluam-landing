@@ -171,7 +171,7 @@ const page = () => {
               opts={{
                 align: "start",
               }}
-              className="w-full"
+              className="w-[70vw] m-auto lg:m-0 lg:w-full"
             >
               <CarouselContent>
                 {vidrios.map((producto, index) => (
@@ -192,8 +192,8 @@ const page = () => {
                   </CarouselItem>
                 ))}
               </CarouselContent>
-              <CarouselPrevious className="hidden md:flex"/>
-              <CarouselNext className="hidden md:flex"/>
+              <CarouselPrevious className="lg:hidden flex"/>
+              <CarouselNext className="lg:hidden flex"/>
             </Carousel>
             </Tab>
             <Tab key="Mamparas" title="Mamparas">
@@ -201,7 +201,7 @@ const page = () => {
               opts={{
                 align: "start",
               }}
-              className="w-full"
+              className="w-[70vw] m-auto lg:m-0 lg:w-full"
             >
               <CarouselContent>
                 {mamparas.map((producto, index) => (
@@ -222,8 +222,8 @@ const page = () => {
                   </CarouselItem>
                 ))}
               </CarouselContent>
-              <CarouselPrevious className="hidden md:flex"/>
-              <CarouselNext className="hidden md:flex"/>
+              <CarouselPrevious className="lg:hidden flex"/>
+              <CarouselNext className="lg:hidden flex"/>
             </Carousel>
             </Tab>
             <Tab key="Barandas" title="Barandas">
@@ -231,7 +231,7 @@ const page = () => {
               opts={{
                 align: "start",
               }}
-              className="w-full"
+              className="w-[70vw] m-auto lg:m-0 lg:w-full"
             >
               <CarouselContent>
                 {barandas.map((producto, index) => (
@@ -252,8 +252,8 @@ const page = () => {
                   </CarouselItem>
                 ))}
               </CarouselContent>
-              <CarouselPrevious className="hidden md:flex"/>
-              <CarouselNext className="hidden md:flex"/>
+              <CarouselPrevious className="lg:hidden flex"/>
+              <CarouselNext className="lg:hidden flex"/>
             </Carousel>
             </Tab>
             </Tabs>

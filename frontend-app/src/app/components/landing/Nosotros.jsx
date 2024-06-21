@@ -1,19 +1,18 @@
-import React from "react";
 
 const Nosotros = () => {
   return (
     <div className="bg-[#252527]" id="nosotros">
-      <div className="w-full m-auto lg:w-[95vw] xl:max-w-[93vw] 2xl:max-w-[90vw] pt-[100px] pb-[150px] px-8 md:px-20">
+      <div className="w-full m-auto lg:w-[95vw] xl:max-w-[93vw] 2xl:max-w-[75vw] pt-[100px] pb-[150px] px-8 md:px-20">
         <h1 className="text-white text-[26px] lg:text-[36px] font-bold mb-0 lg:mb-10">
           Sobre nosotros
         </h1>
-        <div className=" flex flex-col 2xl:flex-row gap-10 mt-8">
-          <video controls className="lg:h-[30vh] xl:h-[40vh] 2xl:h-[60vh]">
-            <source src="/landing/video1.mp4" type="video/mp4" />
+        <div className="flex flex-col lg:flex-row gap-10 mt-8">
+          <video loop="true" autoplay="autoplay" id="vid" muted className="w-full md:w-auto sm:max-h-[60vh] lg:h-[50vh] xl:h-[50vh] 2xl:h-[60vh]">
+            <source src="/landing/aluamWeb.mp4" type="video/mp4" />
             Tu navegador no soporta el elemento de video.
           </video>
           <div>
-            <p className="text-gray300 text-[15px] xl:text-[17px]">
+            <p className="text-gray100 text-[15px] lg:text-[20px] 2xl:text-[22px]">
               Somos una empresa dedicada a la fabricación y venta de aberturas
               de aluminio y PVC en media y alta prestación. Nos avalan más de 15
               años de trayectoria en San Luis capital, y el reconocimiento de la
@@ -27,7 +26,7 @@ const Nosotros = () => {
               la entrega e instalación, la calidad de los productos y el
               servicio postventa. <br />
               <br />
-              <span className="text-white font-semibold italic text-[18px]">
+              <span className="text-white font-semibold italic text-[18px] lg:text-[22px] 2xl:text-[24px]">
                 "Cuidando los detalles, ALUAM es garantía de calidad"
               </span>
             </p>

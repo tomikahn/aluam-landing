@@ -10,7 +10,7 @@ const DividerCatalogo = () => {
     >
       <motion.div
         whileHover={{ scale: 1.02 }}
-        className="flex flex-row items-center justify-center gap-8 cursor-pointer"
+        className="flex flex-row items-center justify-center gap-4 md:gap-8 cursor-pointer"
       >
         <svg
           className="w-[30px] h-[30px] md:w-[48px] md:h-[48px]"
@@ -24,7 +24,7 @@ const DividerCatalogo = () => {
             d="M240 240H32V32h208Zm240 0H272V32h208ZM240 480H32V272h208Zm240 0H272V272h208Z"
           />
         </svg>
-        <h2 className="text-[20px] md:text-[40px] text-white font-medium">
+        <h2 className="text-[18px] md:text-[20px] md:text-[40px] text-white font-medium">
           Explora nuestros <span className="font-bold">productos</span>
         </h2>
       </motion.div>

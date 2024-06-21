@@ -80,7 +80,7 @@ const Hero = () => {
         </CarouselContent>
       </Carousel>
       {/* implementar logica de cambio de foto */}
-      <div className="absolute bottom-[10%] left-[45%] flex flex-row gap-2" style={{zIndex: 100}}>
+      <div className="absolute bottom-[10%] w-full items-center justify-center  flex flex-row gap-2" style={{zIndex: 80}}>
         {urls.map((_, index) => (
           <div
             key={index}

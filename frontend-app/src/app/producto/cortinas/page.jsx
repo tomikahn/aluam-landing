@@ -99,7 +99,7 @@ const page = () => {
               opts={{
                 align: "start",
               }}
-              className="w-full"
+              className="w-[70vw] m-auto lg:m-0 lg:w-full"
             >
               <CarouselContent>
                 {galeriapvc.map((producto, index) => (
@@ -107,12 +107,16 @@ const page = () => {
                     key={index}
                     className="md:basis-1/2 lg:basis-1/3"
                   >
-                    <div className="w-full">
+                    <div className="w-full relative">
                       <img
                         src={producto.img}
                         alt=""
                         className="rounded-[6px] object-cover w-full h-[450px]"
                       />
+                      {producto.title !="Enrollar de aluminio" && (
+                        <img src="/logos/dinoconte.png" className="absolute bottom-[55px] right-[0%] w-[150px] bg-gray-700"/>
+                        // <img src="/logos/dinoconte.png" />
+                      ) }
                       <h3 className="mt-2 text-[17px] lg:text-[22px] text-gray700">
                         {producto.title}
                       </h3>
@@ -120,8 +124,8 @@ const page = () => {
                   </CarouselItem>
                 ))}
               </CarouselContent>
-              <CarouselPrevious className="hidden md:flex"/>
-              <CarouselNext className="hidden md:flex"/>
+              <CarouselPrevious className=" flex"/>
+              <CarouselNext className=" flex"/>
             </Carousel>
           </div>
         </div>
