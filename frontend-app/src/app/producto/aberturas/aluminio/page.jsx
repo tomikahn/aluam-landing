@@ -303,7 +303,7 @@ const page = () => {
           placement="top-center"
           isOpen={isOpen}
           onOpenChange={onOpenChange}
-          className="absolute z-50 w-[90vw] lg:w-[950px] h-fit sm:overflow-hidden"
+          className="absolute z-50 w-[90vw] lg:w-[950px] h-fit sm:overflow-hidden top-[5%]"
         >
           <ModalContent>
             {(onClose) => (
@@ -313,15 +313,15 @@ const page = () => {
                   <img
                     src={selected.img}
                     alt=""
-                    className="w-[170px] md:w-[200px] object-cover"
+                    className="w-[170px] md:w-[140px] object-cover"
                   />
                   <img src={selected.logo} alt="" className="h-[60px] absolute bottom-1 right-4"/>
                   </div> 
-                  <div className="flex flex-col items-start justify-start gap-4 px-2">
-                    <h2 className="text-[27px] text-gray-900 font-semibold">
+                  <div className="flex flex-col items-start justify-start gap-2 px-2">
+                    <h2 className="text-[24px] text-gray-900 font-semibold">
                       {selected.title}
                     </h2>
-                    <p className="text-[15px] md:text-[16px] text-gray-700 max-h-[240px] overflow-y-auto cursor-ns-resize">
+                    <p className="text-[15px] md:text-[16px] text-gray-700 max-h-[150px] 2xl:max-h-fit overflow-y-auto cursor-ns-resize">
                       {selected.description}
                     </p>
                     
