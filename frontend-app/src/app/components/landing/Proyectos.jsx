@@ -11,7 +11,7 @@ const Proyectos = () => {
     },
      {images:[{imagen:"/landing/proyectos/aterrazada/CASA 1.webp"},{imagen:"/landing/proyectos/aterrazada/CASA 2.webp"},{imagen:"/landing/proyectos/aterrazada/CASA 3.webp"},{imagen:"/landing/proyectos/aterrazada/CASA 4.webp"},{imagen:"/landing/proyectos/aterrazada/CASA 5.webp"},{imagen:"/landing/proyectos/aterrazada/CASA 6.webp"}],
     title:"Casa aterrazada",
-    text:"Vivienda familiar en Country de la ciudad de San Luis. Realizado en A30 color bronce colonial. Aberturas con dinteles de 2,70 mts y. DVH con vidrio laminado. Paños fijos de 7mts y aberturas de 5, para optimizar la vista a las sierras.",
+    text:"Vivienda familiar en Country de la ciudad de San Luis. Realizado en A30 color bronce colonial. Aberturas con dinteles de 2,70 mts y DVH con vidrio laminado. Paños fijos de 7mts y aberturas de 5mts, para optimizar la vista a las sierras.",
     tipologias:["Aberturas corredizas, paños fijos y oscilo batientes", "Puertas batientes"]
     },
     {images:[{imagen:"/landing/proyectos/zara/ZARA 1.webp"},{imagen:"/landing/proyectos/zara/ZARA 2.webp"},{imagen:"/landing/proyectos/zara/ZARA 3.webp"},{imagen:"/landing/proyectos/zara/ZARA 4.webp"},{imagen:"/landing/proyectos/zara/ZARA 5.webp"}],
@@ -21,7 +21,7 @@ const Proyectos = () => {
     },
     {images:[{imagen:"/landing/proyectos/bar/BAR 1.webp"},{imagen:"/landing/proyectos/bar/BAR 2.webp"},{imagen:"/landing/proyectos/bar/BAR 3.webp"},{imagen:"/landing/proyectos/bar/BAR 4.webp"}],
     title:"AS Bar",
-    text:"Se trata de una de las obras realizados en un Barrio Privado en desarrollo ubicado en las sierras de San Luis. Es una vivienda familiar que cuenta con más de 20 aberturas, algunas que superan los 4mts, por 2,50 mts., realizadas en líneas A30 y Módena en color bronce colonial. Además, en la fachada se instaló Profilit, que le aporta distinción y singularidad al diseño.",
+    text:"Se trata de una de las obras realizados en un Barrio Privado en desarrollo ubicado en las sierras de San Luis. Es una vivienda familiar que cuenta con más de 20 aberturas, algunas que superan los 4mts por 2,50 mts, realizadas en líneas A30 y Módena en color bronce colonial. Además, en la fachada se instaló Profilit, que le aporta distinción y singularidad al diseño.",
     tipologias:["Puertas batientes","Aberturas corredizas oscilobatientes, y ventiluz", "Profilit"]
     },
   ]

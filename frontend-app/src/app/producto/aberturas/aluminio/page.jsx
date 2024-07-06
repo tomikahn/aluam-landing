@@ -15,10 +15,10 @@ import {
 
 const perfilesMediaPrestacion = [
   {
-    title: "Modena",
+    title: "Módena",
     img: "/catalogo/media/modenaa.png",
     description:
-      "Modena es una línea de media prestación de la extrusora ALUAR con terminaciones a 90° que van ensamblada con tornillos de armado. Su perfilería de excelente calidad nos permite fabricar aberturas de tamaño pequeño y mediano. Se recomienda que sus dimensiones no sobrepasen 1.80 mts de ancho y tampoco 2.10 mts de alto para que su sistema tenga un buen funcionamiento.",
+      "Módena es una línea de media prestación de la extrusora ALUAR con terminaciones a 90° que van ensamblada con tornillos de armado. Su perfilería de excelente calidad nos permite fabricar aberturas de tamaño pequeño y mediano. Se recomienda que sus dimensiones no sobrepasen 1.80 mts de ancho y tampoco 2.10 mts de alto para que su sistema tenga un buen funcionamiento.",
     logo:"/logos/aluar.png"
     },
   {
@@ -33,7 +33,7 @@ const perfilesMediaPrestacion = [
     title: "Rotonda 700",
     img: "/catalogo/media/rotonda700.png",
     description:
-      "Rotonda 700 es una línea de media prestación de la extrusora HYDRO con terminaciones a 45° que va ensamblada con escuadras de tracción lo cual nos da una mayor firmeza en el armado de la abertura. Rotonda 700 eleva el standard de dimensiones permitidas por la media prestación sin dejar de serlo. Se pueden producir aberturas de hasta 2.30 mts de ancho y 2.20 mts de alto sin que comprometa el buen funcionamiento de sus sistemás.",
+      "Rotonda 700 es una línea de media prestación de la extrusora HYDRO con terminaciones a 45° que va ensamblada con escuadras de tracción lo cual nos da una mayor firmeza en el armado de la abertura. Rotonda 700 eleva el standard de dimensiones permitidas por la media prestación sin dejar de serlo. Se pueden producir aberturas de hasta 2.30 mts de ancho y 2.20 mts de alto sin que comprometa el buen funcionamiento de sus sistemas.",
       logo:"/logos/hydro.png"
 
     },
@@ -68,7 +68,7 @@ const perfilesAltaPrestacion = [
     title: "NORDICAL",
     img: "/catalogo/alta/nordical.png",
     description:
-      "La línea NORDICAL es la última presentación de la extrusora HYDRO, con un diseño minimalista con terminaciones a 90° y calidad superlativa.  Esta línea nos permite desarrollar aberturas de grandes dimensiones gracias al generoso tamaño de sus perfiles. Además, cuenta con la tipología de puerta PIVOTANTE, que, a la hora de elegir la puerta de ingreso a tu hogar te permite contar con una opción de excelente nivel y sin ningún tipo de mantenimiento. NORDICAL nos permite diseños de hasta 4.00 mts de ancho por 2.80 mts de alto sin perjudicar el buen funcionamiento de sus sistemás.",
+      "La línea NORDICAL es la última presentación de la extrusora HYDRO, con un diseño minimalista con terminaciones a 90° y calidad superlativa.  Esta línea nos permite desarrollar aberturas de grandes dimensiones gracias al generoso tamaño de sus perfiles. Además, cuenta con la tipología de puerta PIVOTANTE, que, a la hora de elegir la puerta de ingreso a tu hogar te permite contar con una opción de excelente nivel y sin ningún tipo de mantenimiento. NORDICAL nos permite diseños de hasta 4.00 mts de ancho por 2.80 mts de alto sin perjudicar el buen funcionamiento de sus sistemas.",
       logo:"/logos/hydro.png"
 
     },
@@ -162,7 +162,7 @@ const page = () => {
               <div className="flex flex-col sm:flex-row gap-4 mt-6">
               <a target='_blank' href={`https://wa.me/+5492664655398?text=${text}`}>
             <button className='back-degradado px-8 py-2 rounded-[10px] text-white flex flex-row items-center justify-center gap-2'>
-            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 56 56"><path fill="white" d="M15.555 53.125h24.89c4.852 0 7.266-2.461 7.266-7.336V24.508c0-3.024-.328-4.336-2.203-6.258L32.57 5.102c-1.78-1.829-3.234-2.227-5.882-2.227H15.555c-4.828 0-7.266 2.484-7.266 7.36v35.554c0 4.898 2.438 7.336 7.266 7.336m.187-3.773c-2.414 0-3.68-1.29-3.68-3.633V10.305c0-2.32 1.266-3.657 3.704-3.657h10.406v13.618c0 2.953 1.5 4.406 4.406 4.406h13.36v21.047c0 2.343-1.243 3.633-3.68 3.633ZM31 21.132c-.914 0-1.29-.374-1.29-1.312V7.375l13.5 13.758Zm5.625 9.985h-17.79c-.843 0-1.452.633-1.452 1.43c0 .82.61 1.453 1.453 1.453h17.789a1.43 1.43 0 0 0 1.453-1.453c0-.797-.633-1.43-1.453-1.43m0 8.18h-17.79c-.843 0-1.452.656-1.452 1.476c0 .797.61 1.407 1.453 1.407h17.789c.82 0 1.453-.61 1.453-1.407c0-.82-.633-1.476-1.453-1.476"/></svg>              <span className="font-medium">Solicita tu presupuesto</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 56 56"><path fill="white" d="M15.555 53.125h24.89c4.852 0 7.266-2.461 7.266-7.336V24.508c0-3.024-.328-4.336-2.203-6.258L32.57 5.102c-1.78-1.829-3.234-2.227-5.882-2.227H15.555c-4.828 0-7.266 2.484-7.266 7.36v35.554c0 4.898 2.438 7.336 7.266 7.336m.187-3.773c-2.414 0-3.68-1.29-3.68-3.633V10.305c0-2.32 1.266-3.657 3.704-3.657h10.406v13.618c0 2.953 1.5 4.406 4.406 4.406h13.36v21.047c0 2.343-1.243 3.633-3.68 3.633ZM31 21.132c-.914 0-1.29-.374-1.29-1.312V7.375l13.5 13.758Zm5.625 9.985h-17.79c-.843 0-1.452.633-1.452 1.43c0 .82.61 1.453 1.453 1.453h17.789a1.43 1.43 0 0 0 1.453-1.453c0-.797-.633-1.43-1.453-1.43m0 8.18h-17.79c-.843 0-1.452.656-1.452 1.476c0 .797.61 1.407 1.453 1.407h17.789c.82 0 1.453-.61 1.453-1.407c0-.82-.633-1.476-1.453-1.476"/></svg>              <span className="font-medium">Solicitá tu presupuesto</span>
             </button>
           </a>
               </div>
@@ -321,7 +321,7 @@ const page = () => {
                     <h2 className="text-[27px] text-gray-900 font-semibold">
                       {selected.title}
                     </h2>
-                    <p className="text-[15px] md:text-[16px] text-gray-700">
+                    <p className="text-[15px] md:text-[16px] text-gray-700 max-h-[240px] overflow-y-auto cursor-ns-resize">
                       {selected.description}
                     </p>
                     

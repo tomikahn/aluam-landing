@@ -22,7 +22,7 @@ const DividerWhatsapp = () => {
           />
         </svg>
         <h2 className="text-[18px] md:text-[20px] md:text-[40px] text-white font-medium">
-          Contactanos via <span className="font-bold">Whatsapp</span>!
+          Contactános vía <span className="font-bold">Whatsapp</span>!
         </h2>
       </motion.div>
     </div>

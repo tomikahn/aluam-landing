@@ -7,7 +7,7 @@ const Hero = () => {
       imagen: "/landing/Nordical.png",
       titulo: "Aberturas",
       descripcion:
-        "Explora nuestra variedad de aberturas de aluminio y PVC, ideales para cualquier proyecto arquitectónico.",
+        "Explorá nuestra variedad de aberturas de aluminio y PVC, ideales para cualquier proyecto arquitectónico.",
       productos: [
         { producto: "Aluminio", enlace: "/producto/aberturas/aluminio" },
         { producto: "PVC", enlace: "/producto/aberturas/pvc" },
@@ -17,14 +17,14 @@ const Hero = () => {
       imagen: "/catalogo/vidrios/pielDeVidrio.png",
       titulo: "Vidrios",
       descripcion:
-        "Experimenta la seguridad y la estética con nuestros vidrios templados y laminados, dando modernidad a tus espacios.",
+        "Experimentá la seguridad y la estética con nuestros vidrios templados y laminados, dando modernidad a tus espacios.",
       productos: [{ producto: "Explorar", enlace: "/producto/vidrios" }],
     },
     {
       imagen: "/catalogo/cortinas/cortina-render.webp",
       titulo: "Cortinas",
       descripcion:
-        "Potencia el confort y la privacidad con nuestras cortinas y toldos de calidad garantizada, adaptados a tu estilo de vida.",
+        "Potenciá el confort y la privacidad con nuestras cortinas y toldos de calidad garantizada, adaptados a tu estilo de vida.",
       productos: [{ producto: "Explorar", enlace: "/producto/cortinas" }],
     },
   ];
@@ -44,7 +44,7 @@ const Hero = () => {
             </h1>
           </div>
       <div className="w-full lg:w-[90vw] pt-[120px] pb-[150px] px-8 md:px-20">
-        <h2 className="text-gray500 text-[17px] text-center sm:text-left">Descubri nuestros productos</h2>
+        <h2 className="text-gray500 text-[17px] text-center sm:text-left">Descubrí nuestros productos</h2>
         <h1 className="text-gray1000 text-[26px] md:text-[32px] text-center sm:text-left font-bold mb-10 lg:mb-20 md:mb-10">
           Nuestros productos
         </h1>

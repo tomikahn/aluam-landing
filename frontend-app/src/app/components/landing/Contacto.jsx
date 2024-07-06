@@ -15,7 +15,7 @@ const Contacto = () => {
               Contacto
             </h3>
             <h3 className="text-[16px] md:text-[20px] text-gray500 mb-6 mt-[0.5rem] md:mt-0">
-              Pedinos tu presupuesto a traves de cualquiera de estos medios
+              Pedinos tu presupuesto a través de cualquiera de estos medios
             </h3>
             <div className="flex flex-row items-center justify-start gap-4 mb-4">
               <svg

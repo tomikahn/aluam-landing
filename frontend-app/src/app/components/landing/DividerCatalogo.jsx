@@ -1,10 +1,10 @@
 "use client";
-import React from "react";
+import Link from "next/link";
 import { motion } from "framer-motion";
 
 const DividerCatalogo = () => {
   return (
-    <a
+    <Link
       href="/catalogo"
       className="w-full back-degradado py-20 flex flex-row items-center justify-center gap-8 px-8"
     >
@@ -25,10 +25,10 @@ const DividerCatalogo = () => {
           />
         </svg>
         <h2 className="text-[18px] md:text-[20px] md:text-[40px] text-white font-medium">
-          Explora nuestros <span className="font-bold">productos</span>
+          Explorá nuestros <span className="font-bold">productos</span>
         </h2>
       </motion.div>
-    </a>
+    </Link>
   );
 };
 

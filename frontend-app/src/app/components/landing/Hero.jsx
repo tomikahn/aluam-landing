@@ -55,7 +55,7 @@ const Hero = () => {
   }, [api]);
 
   return (
-    <div className="max-w-screen  h-screen flex items-start justify-start over overflow-hidden">
+    <div className="max-w-screen  h-screen flex items-start justify-start overflow-hidden">
       <Carousel
         setApi={setApi}
        plugins={[plugin.current]}
@@ -98,7 +98,7 @@ const Hero = () => {
         </h1>
         <h3 className="text-[18px] sm:text-[22px] text-gray300 font-medium mb-12">
           En ALUAM nos dedicamos a la fabricación y comercialización de
-          aberturas de aluminios, PVC y vidrios.
+          aberturas de aluminio, PVC y vidrios.
         </h3>
         <Link
           href="/catalogo"

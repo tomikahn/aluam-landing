@@ -21,7 +21,7 @@ const ItemProyecto = ({ images, title, text, tipologias }) => {
         <h1 className="text-[20px] lg:text-[30px] font-semibold ">{title}</h1>
         <div className='w-full h-[3px] bg-orange500 rounded-[20px] mb-2'></div>
         <p className="text-gray900 text-[14px] xl:text-[17px] w-full mt-6">{text}</p>
-        <h2 className='mt-6 mb-2 text-[18px] text-slate-800 font-semibold'>Tipologias</h2>
+        <h2 className='mt-6 mb-2 text-[18px] text-slate-800 font-semibold'>Tipologías</h2>
         <div className="flex flex-wrap gap-2">
           {tipologias.map((tipologia, index) => {
             return (
@@ -53,7 +53,7 @@ const ItemProyecto = ({ images, title, text, tipologias }) => {
           placement="top-center"
           isOpen={isOpen}
           onOpenChange={onOpenChange}
-          className="absolute z-50 w-[90vw] lg:min-w-[50vw] lg:h-[80vh] sm:overflow-hidden"
+          className="absolute z-50 w-[90vw] lg:min-w-[50vw] h-[50vh] 2xl:h-[80vh] sm:overflow-hidden"
         >
           <ModalContent>
             {(onClose) => (
