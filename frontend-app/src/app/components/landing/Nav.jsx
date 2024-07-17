@@ -187,18 +187,18 @@ const Nav = () => {
           </Link>
           <Link
             href="/#nosotros"
-            // onClick={() => {
-            //   setOpen(!open);
-            // }}
+            onClick={() => {
+              setOpen(!open);
+            }}
             className="text-gray700 text-[32px] font-semibold hover:text-gray-800 "
           >
             Nosotros
           </Link>
           <Link
             href="/#proyectos"
-            // onClick={() => {
-            //   setOpen(!open);
-            // }}
+            onClick={() => {
+              setOpen(!open);
+            }}
             className="text-gray700 text-[32px] font-semibold hover:text-gray-800 "
           >
             Proyectos
