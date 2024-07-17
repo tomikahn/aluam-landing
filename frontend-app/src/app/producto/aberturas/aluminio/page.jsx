@@ -234,7 +234,7 @@ const page = () => {
                   </Carousel>
                 </div>
                 <img
-                  className="w-[100%] h-[100%] max-h-[28vw] object-cover rounded-[4px]"
+                  className="w-[100%] h-[80vh] lg:h-[100%] lg:max-h-[28vw] object-cover rounded-[4px]"
                   src="/catalogo/Media prestacion.webp"
                   alt="Abertura Media Prestacion"
                 />
@@ -290,7 +290,7 @@ const page = () => {
                   </Carousel>
                 </div>
                 <img
-                  className="w-[100%] h-[100%] max-h-[28vw] object-cover rounded-[4px]"
+                  className="w-[100%]  h-[80vh] lg:h-[100%] lg:max-h-[28vw] object-cover rounded-[4px]"
                   src="/catalogo/aberturas-real.jpg"
                   alt="Abertura Media Prestacion"
                 />
