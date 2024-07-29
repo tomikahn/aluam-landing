@@ -14,7 +14,7 @@ const Ubicacion = () => {
         alt=""
         className="w-full h-[450px] lg:h-[500px] rounded-[10px] object-cover"
       /> */}
-      <iframe className="w-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5624.872940578474!2d-66.35773532193228!3d-33.317551319362344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d43bdd81e87fab%3A0x3e51c5f914ef928c!2sAv.%20Juan%20Gilberto%20Funes%202428%2C%20San%20Luis!5e0!3m2!1ses-419!2sar!4v1718982847639!5m2!1ses-419!2sar" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe className="w-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5624.872940578474!2d-66.35773532193228!3d-33.317551319362344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d43bdd81e87fab%3A0x3e51c5f914ef928c!2sAv.%20Juan%20Gilberto%20Funes%202428%2C%20San%20Luis!5e0!3m2!1ses-419!2sar!4v1718982847639!5m2!1ses-419!2sar" width="600" height="450"  loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
       <div className="flex flex-col lg:flex-row items-start justify-between w-full mt-6">
         <div className="flex flex-col items-start justify-start ">
           <h2 className="text-[20px] md:text-[28px] text-gray800 font-medium">

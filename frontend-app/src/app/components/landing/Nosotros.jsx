@@ -7,7 +7,7 @@ const Nosotros = () => {
           Sobre nosotros
         </h1>
         <div className="flex flex-col lg:flex-row gap-10 mt-8">
-          <video playsInline loop="true" autoplay="autoplay" id="vid" muted className="w-full md:w-auto sm:max-h-[60vh] lg:h-[50vh] xl:h-[50vh] 2xl:h-[60vh]">
+          <video playsInline loop={true} autoPlay="autoplay" id="vid" muted className="w-full md:w-auto sm:max-h-[60vh] lg:h-[50vh] xl:h-[50vh] 2xl:h-[60vh]">
             <source src="/landing/aluamWeb.mp4" type="video/mp4" />
             Tu navegador no soporta el elemento de video.
           </video>
